@@ -1,4 +1,4 @@
-# landslide-zonation-mapping-of-Solan-Himachal-Pradesh-2026
+
 
 # Landslide Susceptibility Zonation Mapping of Solan, Himachal Pradesh, India Using Random Forest (2026)
 
