@@ -1,0 +1,1 @@
+# landslide-zonation-mapping-of-Solan-Himachal-Pradesh-2026
