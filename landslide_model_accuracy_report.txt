@@ -1,0 +1,45 @@
+LANDSLIDE SUSCEPTIBILITY - RANDOM FOREST MODEL
+===========================================
+
+Sample shapefile: C:\ADAMAS\sem_3_pra\GEOAI\land slide\MlDL_Spyder_Landlside\MlDL_Spyder\Final_Sample_Points.shp
+Target field: Landslide
+Class codes: 0 = no landslide, 1 = landslide
+Total input points: 1625
+Usable points: 1624
+Rejected points: 1
+Training points: 1299
+Testing points: 325
+Data split: 80% training / 20% testing (stratified)
+Random Forest trees: 200
+Random state: 42
+Class weighting: balanced
+Classification threshold: 0.5
+
+Accuracy: 0.756923 (75.69%)
+Balanced accuracy: 0.757008
+Precision (class 1): 0.765432
+Recall / sensitivity (class 1): 0.751515
+F1 score (class 1): 0.758410
+Specificity (class 0): 0.762500
+Cohen's Kappa: 0.513869
+ROC-AUC: 0.844564
+
+Confusion matrix (actual rows; predicted columns):
+                  Predicted 0    Predicted 1
+Actual 0 (non-LS)          122             38
+Actual 1 (LS)               41            124
+
+Classification report:
+                  precision    recall  f1-score   support
+
+No landslide (0)       0.75      0.76      0.76       160
+   Landslide (1)       0.77      0.75      0.76       165
+
+        accuracy                           0.76       325
+       macro avg       0.76      0.76      0.76       325
+    weighted avg       0.76      0.76      0.76       325
+
+NOTE: Accuracy is based on held-out test points from the
+same point shapefile, not an independent validation set.
+Random spatial splits may overstate accuracy where
+training and testing sites are geographically clustered.
